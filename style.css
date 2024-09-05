@@ -1,0 +1,12 @@
+
+  h1{
+color: brown;
+  }   
+div{
+    
+width: 250px;
+border-color: rgb(37, 193, 43);
+border-width: 5px;
+border-style:solid;
+background-color: blue;
+}
