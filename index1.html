@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .static {
+        position: static;
+        border: 2px solid red;
+    }
+
+    .rel {
+        width: 250px;
+        border: 2px solid blue;
+        /*position: relative;*/
+        top: 700px;
+        bottom: 0%;
+        right: 10%;
+        left: 250px;
+    }
+
+    .relative {
+        position: relative;
+        width: 350px;
+        height: 300px;
+        border: 2px solid;
+    }
+
+    .abs {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        border: 5px solid saddlebrown;
+        width: 70px;
+        height: 80px;
+    }
+    .fixed{
+        position: fixed;
+    left: 70px;
+    top: 25px;
+    }
+    
+</style>
+
+<body>
+    <p class="fixed">fixed position</p>
+    <p class="static">Position static</p>
+    <p class="rel">Position Relative</p>
+    <div class="relative">
+        <div class="abs">Hii</div>
+    </div>
+    
+</body>
+
+</html>
